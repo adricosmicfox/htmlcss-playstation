@@ -49,3 +49,18 @@
 
 
 /* PLAYSTAION 4 SECTION */
+
+
+/* PLAYSTATION PLUS SECTION */
+
+.am-psplus-section {
+    background-color: #BEBCBB;
+    min-width: 100%;
+}
+
+.am-psplus-button {
+    background-color: #dddcdb;
+    border: none;
+    color: #2D64E6;
+    font-weight: 500;
+}
