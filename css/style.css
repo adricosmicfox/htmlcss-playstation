@@ -25,8 +25,22 @@
 }
 
 
-.am-game-card>img {
-    max-width: 100%;
-    border-radius: 10px;
-    margin-top: 1rem;
+
+
+/* PLAYSTATION 5 SECTION */
+
+
+
+
+/* NEW GAMES */
+
+.am-takes-two{
+    height: 35rem;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.am-new-games-section{
+    background-color: #1F1F1F;
 }
