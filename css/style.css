@@ -1,0 +1,32 @@
+/* B&W HEADER WITH NAV */
+
+.am-header {
+    height: 6rem;
+    background-color: white;
+
+}
+
+.am-black-bar-logo {
+    background-color: black;
+    height: 2rem;
+}
+
+
+
+
+
+/* JUMBOTRON WITH HIGHLIGHTS */
+
+.am-jumbo {
+    margin-top: 8rem;
+    height: 41rem;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: 50%;
+}
+
+
+.am-game-card>img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
