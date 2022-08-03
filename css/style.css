@@ -34,13 +34,18 @@
 
 /* NEW GAMES */
 
-.am-takes-two{
+.am-takes-two {
     height: 35rem;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.am-new-games-section{
+.am-new-games-section {
+    color: white;
+    min-width: 100%;
     background-color: #1F1F1F;
 }
+
+
+/* PLAYSTAION 4 SECTION */
