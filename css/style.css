@@ -13,12 +13,10 @@
 
 
 
-
-
 /* JUMBOTRON WITH HIGHLIGHTS */
 
 .am-jumbo {
-    margin-top: 8rem;
+    margin-top: 6rem;
     height: 41rem;
     background-image: url(../img/jumbo-bg.png);
     background-position: 50%;
@@ -28,6 +26,11 @@
 
 
 /* PLAYSTATION 5 SECTION */
+
+.am-no-limits-h {
+    color: #2D64E6;
+    font-weight: 600;
+}
 
 
 
@@ -62,5 +65,26 @@
     background-color: #dddcdb;
     border: none;
     color: #2D64E6;
+    font-weight: 500;
+}
+
+
+
+
+/* PLAYSTATION STORE SECTION */
+
+
+
+/* PLAYSTATION NOW SECTION */
+
+.am-psnow-section {
+    background-color: #161C3B;
+    color: white;
+    min-width: 100%;
+}
+
+.am-psnow-button {
+    border: none;
+    background-color: white;
     font-weight: 500;
 }
