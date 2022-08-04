@@ -20,16 +20,26 @@
     height: 41rem;
     background-image: url(../img/jumbo-bg.png);
     background-position: 50%;
+    color: white;
 }
 
+.am-shop-button {
+    font-weight: 600;
+    background-color: #CD3D0F;
+    border: none;
+    max-width: fit-content;
+}
 
+.am-returnal-logo {
+    max-width: 20rem;
+}
 
 
 /* PLAYSTATION 5 SECTION */
 
 .am-no-limits-h {
     color: #2D64E6;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 
@@ -68,6 +78,10 @@
     font-weight: 500;
 }
 
+.am-ps5-button {
+    max-width: fit-content;
+}
+
 
 
 
@@ -87,4 +101,15 @@
     border: none;
     background-color: white;
     font-weight: 500;
+}
+
+
+/* SOCIAL MEDIA SECTION */
+
+
+/* FOOTER */
+
+footer {
+    background-color: #00439C;
+    height: 70rem;
 }
