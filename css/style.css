@@ -52,12 +52,22 @@
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
+    color: white;
 }
 
 .am-new-games-section {
     color: white;
     min-width: 100%;
     background-color: #1F1F1F;
+}
+
+.am-takes-two-logo {
+    max-width: 15rem;
+}
+
+.am-new-games-section h5 {
+    font-size: .8rem;
+    margin-top: .4rem;
 }
 
 
@@ -69,6 +79,7 @@
 .am-psplus-section {
     background-color: #BEBCBB;
     min-width: 100%;
+    min-height: 17rem;
 }
 
 .am-psplus-button {
@@ -76,6 +87,7 @@
     border: none;
     color: #2D64E6;
     font-weight: 500;
+    max-width: fit-content;
 }
 
 .am-ps5-button {
@@ -95,12 +107,14 @@
     background-color: #161C3B;
     color: white;
     min-width: 100%;
+    min-height: 17rem;
 }
 
 .am-psnow-button {
     border: none;
     background-color: white;
     font-weight: 500;
+    max-width: fit-content;
 }
 
 
