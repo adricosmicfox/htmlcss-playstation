@@ -1,14 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 /* B&W HEADER WITH NAV */
+
+.am-black-upper-bar {
+    background-color: black;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+}
 
 .am-header {
     height: 6rem;
     background-color: white;
-
 }
 
 .am-black-bar-logo {
     background-color: black;
     height: 2rem;
+}
+
+.am-sony-logo {
+    width: 6rem;
+}
+
+/* remove border from header dropdowns  */
+.nav-item.dropdown .btn:focus-visible,
+.nav-item.dropdown .btn:focus,
+.nav-item.dropdown .btn:hover {
+    border-width: 0px;
+}
+
+/* override the display: block 
+when a navigation dropdown shows its inner links */
+#navigation .dropdown-menu.show {
+    display: flex;
 }
 
 
@@ -41,8 +69,6 @@
     color: #2D64E6;
     font-weight: 500;
 }
-
-
 
 
 /* NEW GAMES */
@@ -94,12 +120,11 @@
     max-width: fit-content;
 }
 
-
-
+.am-psplus-logo {
+    max-width: 29rem;
+}
 
 /* PLAYSTATION STORE SECTION */
-
-
 
 /* PLAYSTATION NOW SECTION */
 
@@ -118,8 +143,11 @@
 }
 
 
-/* SOCIAL MEDIA SECTION */
+.am-psnow-logo {
+    max-width: 29rem;
+}
 
+/* SOCIAL MEDIA SECTION */
 
 /* FOOTER */
 
