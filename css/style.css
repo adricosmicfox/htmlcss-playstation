@@ -124,6 +124,12 @@
 /* FOOTER */
 
 footer {
+    color: white;
     background-color: #00439C;
-    height: 70rem;
+    height: 56rem;
+    padding-top: 3rem;
+}
+
+.am-sie-logo{
+    width: 9rem;
 }
