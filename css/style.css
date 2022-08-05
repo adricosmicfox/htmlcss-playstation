@@ -125,11 +125,28 @@
 
 footer {
     color: white;
+    min-width: 100%;
     background-color: #00439C;
-    height: 56rem;
     padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
-.am-sie-logo{
+.am-sie-logo {
     width: 9rem;
+}
+
+.am-footer-disclaimer {
+    color: white;
+    background-color: #00439C;
+    max-width: 100%;
+    padding-bottom: 2rem;
+}
+
+.am-ps-logo {
+    width: 6rem;
+}
+
+.am-subfooter {
+    font-size: .7rem;
+    max-width: 40rem;
 }
